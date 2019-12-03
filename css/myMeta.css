@@ -8,8 +8,20 @@ mei-filedesc > mei-titlestmt > mei-title
 
 mei-filedesc > mei-titlestmt > mei-arranger::before
 {
-   display: block;
+  display: block;
   content: "Arranged by "
+}
+
+mei-filedesc > mei-titlestmt > mei-composer::before
+{
+  display: block;
+  content: "Composed by "
+}
+
+mei-filedesc > mei-titlestmt > mei-respstmt::before
+{
+  display: block;
+  content: "chickennnnnnn"
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
