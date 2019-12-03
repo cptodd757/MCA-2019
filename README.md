@@ -75,3 +75,22 @@ Below is a table of relevant metadata for each of these songs.
 | Truth Serum	| Truth Serum |	Rap	| freemusicarchive |	mp3	| 2 |	44100 |	320 kbps |	0:02:18	| 5.45 MB |
 | Marwood Williams |	Marwood Williams |	Country |	freemusicarchive |	mp3 |	2 |	44100 |	320 kbps	| 0:03:57 |	9.07 MB |
 
+And next, the waveforms and spectrograms for each of the songs.
+
+Beethoven:
+
+[waveform didn't load!](./Week_8/beethoven waveform.png)
+[spectrogram didn't load!](./Week_8/beethoven spectrogram.png)
+
+Marwood Williams:
+
+[waveform didn't load!](./Week_8/marwood williams waveform.png)
+[spectrogram didn't load!](./Week_8/marwood williams spectrogram.png)
+
+Truth Serum:
+
+[waveform didn't load!](./Week_8/truth serum waveform.png)
+[spectrogram didn't load!](./Week_8/truth serum spectrogram.png)
+
+
+
