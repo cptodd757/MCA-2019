@@ -47,4 +47,4 @@ Below is a  piano roll for this piece:
 
 And here, a histogram of the pitches used in the piece:
 
-![An error occurred.](./Week_4/histogram.png)
+![An error occurred.](./Week_4/pitch histogram.png)
