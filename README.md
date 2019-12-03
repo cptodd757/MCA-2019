@@ -104,15 +104,15 @@ Below are screenshots of the Sonic Visualizer sessions for each of the three son
 
 Beethoven:
 
-![screenshot didn't load](./Week_9/beethoven/session.png)
+![screenshot didn't load](./Week_9/beethoven/session.PNG)
 
 Marwood Williams:
 
-![screenshot didn't load](./Week_9/williams/session.png)
+![screenshot didn't load](./Week_9/williams/session.PNG)
 
 Truth Serum:
 
-![screenshot didn't load](./Week_9/serum/session.png)
+![screenshot didn't load](./Week_9/serum/session.PNG)
 
 ### Task 2
 
