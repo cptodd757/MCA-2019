@@ -26,3 +26,15 @@ I have chosen to transcribe and arrange a 16-bar segment from The Light of the S
 ## Week 3
 
 [Click here to see my transcription presented with Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
+
+## Week 4
+
+| Category      | Value           
+| ------------- |:-------------:|
+| Number of Pitches     | 30 |
+| Number of Pitch Classes     | 9      |
+| Range | 48    |
+| Mean Pitch | 64.89 |
+| Most Common Pitch | 67 |
+| Relative Prevalence of Top Pitches | .963 |
+|Mean Melodic Interval | 9.647 |
