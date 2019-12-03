@@ -15,66 +15,66 @@ mei-filedesc > mei-titlestmt > mei-title
 mei-filedesc > mei-titlestmt > mei-arranger::before
 {
   display: block;
-  content: "Arranged by "
+  content: "\nArranged by "
 }
 
 mei-filedesc > mei-titlestmt > mei-composer::before
 {
   display: block;
-  content: "Composed by "
+  content: "\nComposed by "
 }
 
 mei-filedesc > mei-titlestmt > mei-respstmt::before
 {
   display: block;
-  content: "";
+  content: "\n";
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
 {
   display: block;
-  content: "Edition: "
+  content: "\nEdition: "
 }
 
 mei-filedesc > mei-extent::before
 {
     display: block;
-   content: "Size (in bytes): "    
+   content: "\nSize (in bytes): "    
 }
 
 mei-filedesc > mei-pubstmt > mei-unpub::before
 {
   display: block;
-  content: "";
+  content: "\n";
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-head::before
 {
   display: block;
-  content: "";
+  content: "\n";
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-bibl::before
 {
   display: block;
-  content: "";
+  content: "\n";
 }
 
 
 mei-encodingdesc > mei-projectdesc::before
 {
   display: block;
-  content: "";
+  content: "\n";
 }
 
 mei-encodingdesc > mei-samplingdecl::before
 {
   display: block;
-  content: "";
+  content: "\n";
 }
 
 
-mei-workstmt 
+mei-worklist 
 {
   display: none;
 }
