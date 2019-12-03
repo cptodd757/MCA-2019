@@ -48,3 +48,7 @@ Below is a  piano roll for this piece:
 And here, a histogram of the pitches used in the piece:
 
 ![An error occurred.](./Week_4/pitch histogram.png)
+
+## Week 5
+
+The schema I created was largely in line with what was available at https://music-encoding.org/guidelines/v4/content/metadata.html, with omissions made where necessary, e.g. publishing info for a transcription I have not published, information regarding authors of written works or pieces with lyrics, etc.  This file can be viewed [here](Week_5/Light of the Seven, New Metadata.mei), or, more conveniently, in my later writeup for Week 7. 
