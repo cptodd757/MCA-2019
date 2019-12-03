@@ -25,4 +25,4 @@ I have chosen to transcribe and arrange a 16-bar segment from The Light of the S
 
 ## Week 3
 
-[Click here to see my transcription presented with Verovio.](cptodd757.github.io/MCA-2019/verovio.html)
+[Click here to see my transcription presented with Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
