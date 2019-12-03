@@ -1,4 +1,6 @@
-# MCA
+# Music Curation and Analytics
+## Lab Portfolio
+### by Charlie Todd
 
 This repository is for a class entitled Music Curation and Analytics at the University of Glasgow.
 
