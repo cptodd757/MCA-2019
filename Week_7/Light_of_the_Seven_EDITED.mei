@@ -25,6 +25,10 @@
                     <resp>Class project assigned by</resp>
                     <name authURI="https://moodle.gla.ac.uk/course/view.php?id=18045"> University of Glasgow</name>
                 </respStmt>
+                <respStmt>
+                    <resp>Piece commissioned by</resp>
+                    <name authURI="https://www.hbo.com/game-of-thrones">Game of Thrones</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -92,6 +96,9 @@
                         <perfRes count="2">Cello</perfRes>
                     </perfResList>
                 </perfMedium>
+                <genre>
+                    Soundtrack
+                </genre>
             </work>
         </workList>
     </meiHead>
