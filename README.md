@@ -92,5 +92,38 @@ Truth Serum:
 ![waveform didn't load!](./Week_8/truth serum waveform.png)
 ![spectrogram didn't load!](./Week_8/truth serum spectrogram.png)
 
+One advantage of a time-frequency analysis over just a waveform-based analysis is fairly inherent to the name--that is, it enables us to visualize information about each of the frequencies that comprise a signal.  With just the waveform, it is easy to track changes in overall volume by observing the changes in amplitude, but with the spectrogram, it is possible to observe these changes in volume for all the different frequencies, by looking at the intensity of the colors.  
+
+For example, in the excerpt from Beethoven's Ninth Symphony, the waveform clearly reflects three loud bursts of energy at the beginning of the movement.  However, when one looks at the spectrogram, it is apparent that there are actually four loud bursts (two from the orchestra, then one from the timpani, then another from the orchestra), more or less playing the notes D, A, F and D in order.  The fact that the spectrogram illustrates amplitude with specific respect to the different frequencies allows us to distinguish between the third and fourth bursts, which the waveform does not.
+
+## Week 9
+
+### Task 1
+
+Below are screenshots of the Sonic Visualizer sessions for each of the three songs, featuring the waveforms, spectrograms, mel frequency cepstral coefficients, and chromagrams.
+
+Beethoven:
+
+![screenshot didn't load](./Week_9/beethoven/session.png)
+
+Marwood Williams:
+
+![screenshot didn't load](./Week_9/williams/session.png)
+
+Truth Serum:
+
+![screenshot didn't load](./Week_9/serum/session.png)
+
+### Task 2
+
+Below are histograms representing the spectrograms, mel frequency cepstral coefficients, and chromagrams of the three songs.
+
+| | Spectrogram | MFCC | Chromagram |
+| - | - | - | - |
+| Beethoven | [](./Week_9/beethoven/spectrogram.png) | [](./Week_9/beethoven/mfcc.png)| [](./Week_9/beethoven/chromagram.png) |
+| Williams | [](./Week_9/williams/spectrogram.png) | [](./Week_9/williams/mfcc.png)| [](./Week_9/williams/chromagram.png) |
+| Truth Serum | [](./Week_9/serum/spectrogram.png) | [](./Week_9/serum/mfcc.png)| [](./Week_9/serum/chromagram.png) |
+
+
 
 
