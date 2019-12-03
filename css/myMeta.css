@@ -60,51 +60,21 @@ mei-filedesc > mei-sourcedesc > mei-source > mei-bibl::before
   content: "";
 }
 
-mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
-{
-   display: block; 
-  content: "Genre Categories: "
-}
 
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
+mei-encodingdesc > mei-projectdesc::before
 {
   display: block;
-  content: "Record Label: "
+  content: "";
 }
 
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
-{
-  content: '\a \a';
-  white-space: pre;
-}
-
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
+mei-encodingdesc > mei-samplingdecl::before
 {
   display: block;
-  content: "Revised by: "
+  content: "";
 }
 
 
-mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
+mei-workstmt 
 {
-  display: block;
-  content: "Published by: "
+  display: none;
 }
-
-
-
-mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
-{
-  display: block;
-  content: "Location: "
-}
-
-mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
-{
-  content: '\a \a';
-  white-space: pre;
-}
-
-
-mei-filedesc > workstmt {
-  display: n
