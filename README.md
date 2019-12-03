@@ -21,4 +21,4 @@ Most of this data is not already analyzed; however, I have some experience with 
 
 ##Week 2
 
-I have chosen to transcribe and arrange a 16-bar segment from The Light of the Seven by Ramin Djawadi, featured in the Season 6 finale of Game of Thrones.  [click me](../../blob/master/Light_of_the_Seven.mzsc)
+I have chosen to transcribe and arrange a 16-bar segment from The Light of the Seven by Ramin Djawadi, featured in the Season 6 finale of Game of Thrones.  [click me](../blob/master/Light_of_the_Seven.mscz)
