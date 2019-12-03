@@ -27,7 +27,7 @@ mei-filedesc > mei-titlestmt > mei-composer::before
 mei-filedesc > mei-titlestmt > mei-respstmt::before
 {
   display: block;
-  content: "\n";
+  content: " ";
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
@@ -45,32 +45,32 @@ mei-filedesc > mei-extent::before
 mei-filedesc > mei-pubstmt > mei-unpub::before
 {
   display: block;
-  content: "\n";
+  content: " ";
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-head::before
 {
   display: block;
-  content: "\n";
+  content: " ";
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-bibl::before
 {
   display: block;
-  content: "\n";
+  content: " ";
 }
 
 
 mei-encodingdesc > mei-projectdesc::before
 {
   display: block;
-  content: "\n";
+  content: " ";
 }
 
 mei-encodingdesc > mei-samplingdecl::before
 {
   display: block;
-  content: "\n";
+  content: " ";
 }
 
 
