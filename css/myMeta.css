@@ -1,0 +1,74 @@
+mei-filedesc > mei-titlestmt > mei-title 
+{
+  color: black;
+  display: block;
+  font-weight: bold;
+  font-size: 26pt;
+}
+
+mei-filedesc > mei-editionstmt > mei-date::before
+{
+   display: block;
+  content: "Year Released: "
+}
+
+mei-filedesc > mei-editionstmt > mei-edition::before
+{
+  display: block;
+  content: "Edition: "
+}
+
+mei-filedesc > mei-editionstmt > mei-pubplace::before
+{
+    display: block;
+   content: "Recorded in: "    
+}
+
+mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
+{
+   display: block; 
+  content: "Genre Categories: "
+}
+
+mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
+{
+  display: block;
+  content: "Record Label: "
+}
+
+mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
+{
+  content: '\a \a';
+  white-space: pre;
+}
+
+mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
+{
+  display: block;
+  content: "Revised by: "
+}
+
+
+mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
+{
+  display: block;
+  content: "Published by: "
+}
+
+
+
+mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
+{
+  display: block;
+  content: "Location: "
+}
+
+mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
+{
+  content: '\a \a';
+  white-space: pre;
+}
+
+
+mei-filedesc > workstmt {
+  display: n
