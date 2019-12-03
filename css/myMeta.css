@@ -15,13 +15,13 @@ mei-filedesc > mei-titlestmt > mei-title
 mei-filedesc > mei-titlestmt > mei-arranger::before
 {
   display: block;
-  content: "\nArranged by "
+  content: "Arranged by "
 }
 
 mei-filedesc > mei-titlestmt > mei-composer::before
 {
   display: block;
-  content: "\nComposed by "
+  content: "Composed by "
 }
 
 mei-filedesc > mei-titlestmt > mei-respstmt::before
@@ -33,13 +33,13 @@ mei-filedesc > mei-titlestmt > mei-respstmt::before
 mei-filedesc > mei-editionstmt > mei-edition::before
 {
   display: block;
-  content: "\nEdition: "
+  content: "Edition: "
 }
 
 mei-filedesc > mei-extent::before
 {
     display: block;
-   content: "\nSize (in bytes): "    
+   content: "Size (in bytes): "    
 }
 
 mei-filedesc > mei-pubstmt > mei-unpub::before
