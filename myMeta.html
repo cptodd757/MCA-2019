@@ -32,6 +32,7 @@
   </script>
   <script>
     // Get, parse, and show TEI data
+    var file = 'Week_7/Light_of_the_Seven_EDITED.mei';
     var CETEIcean = new CETEI()
     CETEIcean.getHTML5("data/example.xml", function(data) {
       document.getElementById("TEI").appendChild(data)
@@ -43,7 +44,7 @@
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("data/example.mei", function(data) {
+    CETEI4MEI.getHTML5(file, function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -57,7 +58,7 @@
         scale: 50,
         adjustPageHeight: true
     })
-    fetch("data/example.mei").then(function( response ) {
+    fetch(file).then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
