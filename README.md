@@ -79,18 +79,18 @@ And next, the waveforms and spectrograms for each of the songs.
 
 Beethoven:
 
-[waveform didn't load!](./Week_8/beethoven waveform.png)
-[spectrogram didn't load!](./Week_8/beethoven spectrogram.png)
+![waveform didn't load!](./Week_8/beethoven waveform.png)
+![spectrogram didn't load!](./Week_8/beethoven spectrogram.png)
 
 Marwood Williams:
 
-[waveform didn't load!](./Week_8/marwood williams waveform.png)
-[spectrogram didn't load!](./Week_8/marwood williams spectrogram.png)
+![waveform didn't load!](./Week_8/marwood williams waveform.png)
+![spectrogram didn't load!](./Week_8/marwood williams spectrogram.png)
 
 Truth Serum:
 
-[waveform didn't load!](./Week_8/truth serum waveform.png)
-[spectrogram didn't load!](./Week_8/truth serum spectrogram.png)
+![waveform didn't load!](./Week_8/truth serum waveform.png)
+![spectrogram didn't load!](./Week_8/truth serum spectrogram.png)
 
 
 
