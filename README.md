@@ -19,3 +19,32 @@ There are definitely pre-made playlists and albums  on Spotify containing metada
 
 Most of this data is not already analyzed; however, I have some experience with Spotify’s excellent Web API that exposes extensive data about tracks within the library of a given user (in this case myself), which I would love to leverage for the purposes of this assignment.  
 
+## Week 2
+
+I have chosen to transcribe and arrange a 16-bar segment from The Light of the Seven by Ramin Djawadi, featured in the Season 6 finale of Game of Thrones.  [Click here for the raw data](./Light_of_the_Seven.mscz)
+
+## Week 3
+
+[Click here to see my transcription presented with Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
+
+## Week 4
+
+| Category      | Value           
+| ------------- |:-------------:|
+| Number of Pitches     | 30 |
+| Number of Pitch Classes     | 9      |
+| Range | 48    |
+| Mean Pitch | 64.89 |
+| Most Common Pitch | 67 |
+| Relative Prevalence of Top Pitches | .963 |
+|Mean Melodic Interval | 9.647 |
+
+These are some of the highlights from the jSymbolic I generated for Light of the Seven.  One thing that is interesting is the difference between the most common pitch (67, which is a G) and the mean pitch (64.89)--the fact that the latter is lower is indicative of the presence of more lower notes, which in this case, are played by the two cellos.  I also notice that the "Relative Prevalence of Top Pitches" has an exceptionally high value (.963), which can be explained by the fact that the left hand on the piano is always arpeggiating a chord, and many of the chords used in this piece predictably include C or G, which comprise the "top pitches" in this piece.  The Mean Melodic Interval also warrants attention because it seems rather high--assuming this is measured in semitones--but it, too, can be explained by the arpeggiation in the left hand, which routinely makes jumps of 7 or 8 semitones.  
+
+Below is a  piano roll for this piece:
+
+![An error occurred.](./Week_4/piano roll.png)
+
+And here, a histogram of the pitches used in the piece:
+
+![An error occurred.](./Week_4/pitch histogram.png)
