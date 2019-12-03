@@ -34,7 +34,7 @@
     // Get, parse, and show TEI data
     var file = 'Week_7/Light_of_the_Seven_EDITED.mei';
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5("data/example.xml", function(data) {
+    CETEIcean.getHTML5(file, function(data) {
       document.getElementById("TEI").appendChild(data)
     })
     // Get, parse and show MEI header data
