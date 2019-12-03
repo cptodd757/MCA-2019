@@ -6,10 +6,10 @@ mei-filedesc > mei-titlestmt > mei-title
   font-size: 26pt;
 }
 
-mei-filedesc > mei-editionstmt > mei-date::before
+mei-filedesc > mei-titlestmt > mei-arranger::before
 {
    display: block;
-  content: "Year Released: "
+  content: "Arranged by "
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
