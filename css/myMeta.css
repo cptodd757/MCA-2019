@@ -36,10 +36,28 @@ mei-filedesc > mei-editionstmt > mei-edition::before
   content: "Edition: "
 }
 
-mei-filedesc > mei-editionstmt > mei-pubplace::before
+mei-filedesc > mei-extent::before
 {
     display: block;
-   content: "Recorded in: "    
+   content: "Size (in bytes): "    
+}
+
+mei-filedesc > mei-pubstmt > mei-unpub::before
+{
+  display: block;
+  content: "";
+}
+
+mei-filedesc > mei-sourcedesc > mei-source > mei-head::before
+{
+  display: block;
+  content: "";
+}
+
+mei-filedesc > mei-sourcedesc > mei-source > mei-bibl::before
+{
+  display: block;
+  content: "";
 }
 
 mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
