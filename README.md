@@ -120,9 +120,9 @@ Below are histograms representing the spectrograms, mel frequency cepstral coeff
 
 | | Spectrogram | MFCC | Chromagram |
 | - | - | - | - |
-| Beethoven | [](./Week_9/beethoven/spectrogram.png) | [](./Week_9/beethoven/mfcc.png)| [](./Week_9/beethoven/chromagram.png) |
-| Williams | [](./Week_9/williams/spectrogram.png) | [](./Week_9/williams/mfcc.png)| [](./Week_9/williams/chromagram.png) |
-| Truth Serum | [](./Week_9/serum/spectrogram.png) | [](./Week_9/serum/mfcc.png)| [](./Week_9/serum/chromagram.png) |
+| Beethoven | ![](./Week_9/beethoven/spectrogram.png) | ![](./Week_9/beethoven/mfcc.png)| ![](./Week_9/beethoven/chromagram.png) |
+| Williams | ![](./Week_9/williams/spectrogram.png) | ![](./Week_9/williams/mfcc.png)| ![](./Week_9/williams/chromagram.png) |
+| Truth Serum | ![](./Week_9/serum/spectrogram.png) | ![](./Week_9/serum/mfcc.png)| ![](./Week_9/serum/chromagram.png) |
 
 
 
