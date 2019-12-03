@@ -1,7 +1,7 @@
 
 .mca 
 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-family: 'Lucida Sans';
 }
 
 mei-filedesc > mei-titlestmt > mei-title 
@@ -27,7 +27,7 @@ mei-filedesc > mei-titlestmt > mei-composer::before
 mei-filedesc > mei-titlestmt > mei-respstmt::before
 {
   display: block;
-  content: "chickennnnnnn"
+  content: "";
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
