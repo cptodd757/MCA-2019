@@ -69,8 +69,8 @@ For the final three weeks, the three songs I have selected to analyze are the th
 
 Below is a table of relevant metadata for each of these songs.  
 
-|Artist|	Composer|	Genre|	Source|	File format|	number of channels	|sample rate|	bit per second|	duration|	size
-Royal Concertgebouw Orchestra|	Ludwig van Beethoven|	Classical|	IMSLP	|mp3|	2	|48000|	112 kbps|	0:14:48	|11.9 MB
-Truth Serum	|Truth Serum|	Rap	|freemusicarchive|	mp3	|2|	44100|	320 kbps|	0:02:18	|5.45 MB
-Marwood Williams|	Marwood Williams|	Country|	freemusicarchive|	mp3|	2|	44100|	320 kbps	|0:03:57|	9.07 MB
+|Artist|	Composer|	Genre|	Source|	File format|	number of channels	|sample rate|	bit per second|	duration|	size |
+Royal Concertgebouw Orchestra|	Ludwig van Beethoven|	Classical|	IMSLP	|mp3|	2	|48000|	112 kbps|	0:14:48	|11.9 MB |
+Truth Serum	|Truth Serum|	Rap	|freemusicarchive|	mp3	|2|	44100|	320 kbps|	0:02:18	|5.45 MB |
+Marwood Williams|	Marwood Williams|	Country|	freemusicarchive|	mp3|	2|	44100|	320 kbps	|0:03:57|	9.07 MB |
 
