@@ -19,6 +19,10 @@ There are definitely pre-made playlists and albums  on Spotify containing metada
 
 Most of this data is not already analyzed; however, I have some experience with Spotify’s excellent Web API that exposes extensive data about tracks within the library of a given user (in this case myself), which I would love to leverage for the purposes of this assignment.  
 
-##Week 2
+## Week 2
 
-I have chosen to transcribe and arrange a 16-bar segment from The Light of the Seven by Ramin Djawadi, featured in the Season 6 finale of Game of Thrones.  [click me](./Light_of_the_Seven.mscz)
+I have chosen to transcribe and arrange a 16-bar segment from The Light of the Seven by Ramin Djawadi, featured in the Season 6 finale of Game of Thrones.  [Click here for the raw data](./Light_of_the_Seven.mscz)
+
+## Week 3
+
+[Click here to see my transcription presented with Verovio.](cptodd757.github.io/MCA-2019/verovio.html)
