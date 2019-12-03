@@ -41,6 +41,10 @@ I have chosen to transcribe and arrange a 16-bar segment from The Light of the S
 
 These are some of the highlights from the jSymbolic I generated for Light of the Seven.  One thing that is interesting is the difference between the most common pitch (67, which is a G) and the mean pitch (64.89)--the fact that the latter is lower is indicative of the presence of more lower notes, which in this case, are played by the two cellos.  I also notice that the "Relative Prevalence of Top Pitches" has an exceptionally high value (.963), which can be explained by the fact that the left hand on the piano is always arpeggiating a chord, and many of the chords used in this piece predictably include C or G, which comprise the "top pitches" in this piece.  The Mean Melodic Interval also warrants attention because it seems rather high--assuming this is measured in semitones--but it, too, can be explained by the arpeggiation in the left hand, which routinely makes jumps of 7 or 8 semitones.  
 
-Below is the piano roll for this piece:
+Below is a  piano roll for this piece:
 
 ![An error occurred.](./Week_4/piano roll.png)
+
+And here, a histogram of the pitches used in the piece:
+
+![An error occurred.](./Week_4/histogram.png)
