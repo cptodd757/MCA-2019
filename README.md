@@ -240,7 +240,7 @@ The final three tracks are, in order, Beethoven, Williams, and Truth Serum.  The
 
 Below is an image of my transcription of Light of the Seven:
 
-![image didn't load](./Week_10/original score GoT.png)
+![image didn't load](./Week_10/original score GoT.PNG)
 
 Below that is an image of Sonic Visualizer's transcription of the audio that MuseScore generated for my transcription:
 
