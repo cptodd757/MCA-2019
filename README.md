@@ -4,7 +4,7 @@
 
 This repository is for a class entitled Music Curation and Analytics at the University of Glasgow.
 
-## Week 1
+## Week 1: Basics of Music Data
 
 ### Task 2
 
@@ -21,15 +21,15 @@ There are definitely pre-made playlists and albums  on Spotify containing metada
 
 Most of this data is not already analyzed; however, I have some experience with Spotify’s excellent Web API that exposes extensive data about tracks within the library of a given user (in this case myself), which I would love to leverage for the purposes of this assignment.  
 
-## Week 2
+## Week 2: Notation Basics
 
 I have chosen to transcribe and arrange a 14-bar segment from "Light of the Seven" by Ramin Djawadi, featured in the Season 6 finale of *Game of Thrones*.  [Click here for the raw data](./Light_of_the_Seven.mscz)
 
-## Week 3
+## Week 3: Encoding Basics for Notation
 
 [Click here to see my transcription presented with Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
 
-## Week 4
+## Week 4: Computational analytics of notated music
 
 | Category      | Value           
 | ------------- |:-------------:|
@@ -53,7 +53,7 @@ And here, a histogram of the pitches used in the piece:
 
 This histogram plainly provides an illustration of that high frequency of top pitches observed earlier, through the prevalence of C in many octaves as well as the G5 that is featured heavily in the piano left hand.
 
-## Week 5
+## Week 5: Standards in curation
 
 The schema I created was largely in line with what was available at https://music-encoding.org/guidelines/v4/content/metadata.html, with omissions made where necessary, e.g. publishing info for a transcription I have not published, information regarding authors of written works or pieces with lyrics, etc.  The file that uses this schema can be viewed [here](./Week_5/Light of the Seven, New Metadata.mei), or, more conveniently, in my later writeup for Week 7.
 
@@ -61,11 +61,11 @@ The schema I created was largely in line with what was available at https://musi
 
 Reading week!
 
-## Week 7
+## Week 7: Challenges to music curation
 
 This week, I added some information to my MEI file, notably a genre tag to describe this piece as soundtrack, as well as a responsibility statement within the title statement that credits *Game of Thrones* with having commissioned the composition of this piece.  Click [here](./myMeta.html) to view the header, along with a Verovio rendering of the sheet music.
 
-## Week 8
+## Week 8: Music as sound
 
 For the final three weeks, the three songs I have selected to analyze are the third movement of Beethoven's Ninth Symphony, "What's Wrong with Me" by Marwood Williams, and "The 5th Dimensional Psy Ops Unit" by Truth Serum.  I selected the Beethoven piece in an attempt to stay in line with my theme of movie and television music, because it plays a key role in *A Clockwork Orange* by Stanley Kubrick, and it's also one of my favorite pieces as an orchestral musician.  However, since I needed to select pieces from different genres, but any movie music that isn't classical is very unlikely to be in the public domain, I chose a couple of other songs from freemusicarchive.org instead.  The Williams song is a country song that I, as a critic of country music, find to be aptly titled, and the Truth Serum song is a rap song that I chose because of the absurd-sounding name.  
 
@@ -98,7 +98,7 @@ One advantage of a time-frequency analysis over just a waveform-based analysis i
 
 For example, in the excerpt from Beethoven's Ninth Symphony, the waveform clearly reflects three loud bursts of energy at the beginning of the movement.  However, when one looks at the spectrogram, it is apparent that there are actually four loud bursts (two from the orchestra, then one from the timpani, then another from the orchestra), more or less playing the notes D, A, F and D in order.  The fact that the spectrogram illustrates amplitude with specific respect to the different frequencies allows us to distinguish between the third and fourth bursts, which the waveform does not.
 
-## Week 9
+## Week 9: Analysing and Extracting Meaning from Audio
 
 ### Task 1
 
@@ -128,7 +128,7 @@ Below are histograms representing the spectrograms, mel frequency cepstral coeff
 
 *Insert interpretation of comparison of either chromagrams or MFCCs here.*
 
-## Week 10
+## Week 10: Audio Similarity and Transcription
 
 ### Task 1
 
