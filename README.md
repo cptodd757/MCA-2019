@@ -224,7 +224,7 @@ Below are histograms representing the spectrograms, mel frequency cepstral coeff
 | Williams | ![](./Week_9/williams/spectrogram.png) | ![](./Week_9/williams/mfcc.png)| ![](./Week_9/williams/chromagram.png) |
 | Truth Serum | ![](./Week_9/serum/spectrogram.png) | ![](./Week_9/serum/mfcc.png)| ![](./Week_9/serum/chromagram.png) |
 
-*Insert interpretation of comparison of either chromagrams or MFCCs here.*
+The chromagrams of these three pieces have some expected similarities and differences.  To begin, it can be observed that, within each song, the distributions of each pitch with respect to energy don’t change much—this was expected, because none of the songs seemed to have any strange imbalances of certain pitches always being louder or softer than others.  However, when comparing across the songs, differences in the distributions become more apparent.  The energy levels for each pitch in Beethoven are skewed right significantly, indicating that notes are more often played quietly than loudly, which is certainly expected from a piece of classical music, a genre that places a lot of emphasis on dynamics and dynamic contrast.  This piece in particular has several long stretches of relative quietude, as can be observed in the waveforms from week 8.  In contrast, the distributions for the Williams and Truth Serum songs are much closer to the normal distribution, especially the Truth Serum song.  This is expected because rap and country are both genres that would be considered popular music, which has much less dynamic contrast.  
 
 ## Week 10: Audio Similarity and Transcription
 
