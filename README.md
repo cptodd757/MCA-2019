@@ -59,7 +59,7 @@ The schema I created was largely in line with what was available at https://musi
 
 Below is a snippet from the file:
 
-'''
+```
 <meiHead>
         <fileDesc>
             <titleStmt>
@@ -153,7 +153,7 @@ Below is a snippet from the file:
             </work>
         </workList>
     </meiHead>
-    '''
+  ```
 
 ## Week 6
 
