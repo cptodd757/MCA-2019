@@ -23,11 +23,13 @@ Most of this data is not already analyzed; however, I have some experience with 
 
 ## Week 2: Notation Basics
 
-I have chosen to transcribe and arrange a 14-bar segment from "Light of the Seven" by Ramin Djawadi, featured in the Season 6 finale of *Game of Thrones*.  [Click here for the raw data](./Light_of_the_Seven.mscz)
+I have chosen to transcribe and arrange a 14-bar segment from "Light of the Seven" by Ramin Djawadi, featured in the Season 6 finale of *Game of Thrones*.  [Click here for the file itself](./Light_of_the_Seven.mscz), or just view this screenshot:
+
+![image didn't load](./Week_2/original score GoT.PNG)
 
 ## Week 3: Encoding Basics for Notation
 
-[Click here to see my transcription presented with Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
+[Click here to see my transcription presented by Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
 
 ## Week 4: Computational analytics of notated music
 
