@@ -57,6 +57,104 @@ This histogram plainly provides an illustration of that high frequency of top pi
 
 The schema I created was largely in line with what was available at https://music-encoding.org/guidelines/v4/content/metadata.html, with omissions made where necessary, e.g. publishing info for a transcription I have not published, information regarding authors of written works or pieces with lyrics, etc.  The file that uses this schema can be viewed [here](./Week_5/Light of the Seven, New Metadata.mei), or, more conveniently, in my later writeup for Week 7.
 
+Below is a snippet from the file:
+
+'''
+<meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Light of the Seven
+                </title>
+                <title type="subtitle"> 
+                    from Game of Thrones 
+                </title>
+                <arranger>
+                    Charles Todd
+                </arranger>
+                <composer>
+                    Ramin Djawadi
+                </composer>
+                <respStmt>
+                    <resp>Transcribed and encoded by</resp>
+                    <name>Charles Todd</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Class project assigned by</resp>
+                    <name authURI="https://moodle.gla.ac.uk/course/view.php?id=18045"> University of Glasgow</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    First draft, only one segment from the piece.
+                </edition>
+            </editionStmt>
+            <extent unit="byte">
+                50800
+            </extent>
+            <pubStmt>
+                <unpub>
+                This file has yet to be published.
+                </unpub>
+            </pubStmt>
+            <sourceDesc>
+                <source>
+                    <head>
+                        File produced by MuseScore.
+                    </head>
+                    <bibl authURI="https://open.spotify.com/album/7bBlW6L9r3ICFkbf2WRDXL?highlight=spotify:track:6iLzFJhs4ATwJn7P1utZIJ">
+                        Music transcribed from audio recording on Spotify.
+                        https://open.spotify.com/album/7bBlW6L9r3ICFkbf2WRDXL?highlight=spotify:track:6iLzFJhs4ATwJn7P1utZIJ
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xml:id="encodingdesc-0000000292973141">
+            <appInfo xml:id="appinfo-0000001852410459">
+                <application xml:id="application-0000001820475887" isodate="2019-10-15T13:03:04" version="2.2.0-dev-c01b3a1-dirty">
+                    <name xml:id="name-0000000990935870">Verovio</name>
+                    <p xml:id="p-0000001813806678">Transcoded from MusicXML</p>
+                </application>
+            </appInfo>
+            <projectDesc>
+                This file exists as an exploration of music curation for the class at University of Glagsow called Music Curation and Analytics.
+            </projectDesc>
+            <samplingDecl>
+                <p>Encoding contains 16 measures that were deemed the best combination of interesting and achievable for the purposes of this project.</p>
+            </samplingDecl>
+        </encodingDesc>
+        <workList>
+            <work>
+                <key>
+                    C minor
+                </key>
+                <meter>
+                    2/2
+                </meter>
+                <tempo>
+                    Moderato
+                </tempo>
+                <creation>
+                    File created on October 24, 2019.
+                </creation>
+                <history>
+                    <eventList>
+                        <event>
+                            Song released on Spotify on June 24, 2016.
+                        </event>
+                    </eventList>
+                </history>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1">Piano</perfRes>
+                        <perfRes count="2">Cello</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+    </meiHead>
+    '''
+
 ## Week 6
 
 Reading week!
