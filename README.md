@@ -240,15 +240,15 @@ The final three tracks are, in order, Beethoven, Williams, and Truth Serum.  The
 
 Below is an image of my transcription of Light of the Seven:
 
+![image didn't load](./Week_10/original score GoT.png)
 
 Below that is an image of Sonic Visualizer's transcription of the audio that MuseScore generated for my transcription:
 
+![image didn't load](./Week_10/sonic visualizer transcription GoT with cellos.PNG)
 
 Lastly, below is an image of Sonic Visualizer's transcription once I removed the cellos (a choice explained later):
 
-
-
-*insert the images here*
+![image didn't load](./Week_10/sonic visualizer transcription GoT.PNG)
 
 My transcription features a piano and two cellos.  However, when I tried feeding the audio into Sonic Visualizer to transcribe it, when I viewed the result, it looked absolutely horrendous—weird rhythms, and not the right key signature.  I thought it might be due to some confusion about what notes the cellos were playing, since they were mediocre-quality synthesized cellos from MuseScore that were sustaining notes for the whole piece, and also using a lot of computerized vibrato.  So, I took the cellos out and retried the transcription, which now looks and sounds much better (although still very far away from 100% accurate).  It extracted the right tempo and the right overall rhythms, but it still identified the overall key as B minor instead of C minor, so a lot of the notes are exactly a half step too low—this could be due to discrepancies between what frequency bands constitute a “pitch” in MuseScore versus Sonic Visaulizer (sort of like how Baroque orchestras use an A that is lower than 440 Hz).
 
