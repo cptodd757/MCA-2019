@@ -1,8 +1,10 @@
-# MCA
+# Music Curation and Analytics
+## Lab Portfolio
+### by Charlie Todd
 
 This repository is for a class entitled Music Curation and Analytics at the University of Glasgow.
 
-## Week 1
+## Week 1: Basics of Music Data
 
 ### Task 2
 
@@ -19,15 +21,15 @@ There are definitely pre-made playlists and albums  on Spotify containing metada
 
 Most of this data is not already analyzed; however, I have some experience with Spotify’s excellent Web API that exposes extensive data about tracks within the library of a given user (in this case myself), which I would love to leverage for the purposes of this assignment.  
 
-## Week 2
+## Week 2: Notation Basics
 
-I have chosen to transcribe and arrange a 16-bar segment from "Light of the Seven" by Ramin Djawadi, featured in the Season 6 finale of *Game of Thrones*.  [Click here for the raw data](./Light_of_the_Seven.mscz)
+I have chosen to transcribe and arrange a 14-bar segment from "Light of the Seven" by Ramin Djawadi, featured in the Season 6 finale of *Game of Thrones*.  [Click here for the raw data](./Light_of_the_Seven.mscz)
 
-## Week 3
+## Week 3: Encoding Basics for Notation
 
 [Click here to see my transcription presented with Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
 
-## Week 4
+## Week 4: Computational analytics of notated music
 
 | Category      | Value           
 | ------------- |:-------------:|
@@ -51,7 +53,7 @@ And here, a histogram of the pitches used in the piece:
 
 This histogram plainly provides an illustration of that high frequency of top pitches observed earlier, through the prevalence of C in many octaves as well as the G5 that is featured heavily in the piano left hand.
 
-## Week 5
+## Week 5: Standards in curation
 
 The schema I created was largely in line with what was available at https://music-encoding.org/guidelines/v4/content/metadata.html, with omissions made where necessary, e.g. publishing info for a transcription I have not published, information regarding authors of written works or pieces with lyrics, etc.  The file that uses this schema can be viewed [here](./Week_5/Light of the Seven, New Metadata.mei), or, more conveniently, in my later writeup for Week 7.
 
@@ -59,11 +61,11 @@ The schema I created was largely in line with what was available at https://musi
 
 Reading week!
 
-## Week 7
+## Week 7: Challenges to music curation
 
 This week, I added some information to my MEI file, notably a genre tag to describe this piece as soundtrack, as well as a responsibility statement within the title statement that credits *Game of Thrones* with having commissioned the composition of this piece.  Click [here](./myMeta.html) to view the header, along with a Verovio rendering of the sheet music.
 
-## Week 8
+## Week 8: Music as sound
 
 For the final three weeks, the three songs I have selected to analyze are the third movement of Beethoven's Ninth Symphony, "What's Wrong with Me" by Marwood Williams, and "The 5th Dimensional Psy Ops Unit" by Truth Serum.  I selected the Beethoven piece in an attempt to stay in line with my theme of movie and television music, because it plays a key role in *A Clockwork Orange* by Stanley Kubrick, and it's also one of my favorite pieces as an orchestral musician.  However, since I needed to select pieces from different genres, but any movie music that isn't classical is very unlikely to be in the public domain, I chose a couple of other songs from freemusicarchive.org instead.  The Williams song is a country song that I, as a critic of country music, find to be aptly titled, and the Truth Serum song is a rap song that I chose because of the absurd-sounding name.  
 
@@ -79,18 +81,76 @@ And next, the waveforms and spectrograms for each of the songs.
 
 Beethoven:
 
-[waveform didn't load!](./Week_8/beethoven waveform.png)
-[spectrogram didn't load!](./Week_8/beethoven spectrogram.png)
+![waveform didn't load!](./Week_8/beethoven waveform.png)
+![spectrogram didn't load!](./Week_8/beethoven spectrogram.png)
 
 Marwood Williams:
 
-[waveform didn't load!](./Week_8/marwood williams waveform.png)
-[spectrogram didn't load!](./Week_8/marwood williams spectrogram.png)
+![waveform didn't load!](./Week_8/marwood williams waveform.png)
+![spectrogram didn't load!](./Week_8/marwood williams spectrogram.png)
 
 Truth Serum:
 
-[waveform didn't load!](./Week_8/truth serum waveform.png)
-[spectrogram didn't load!](./Week_8/truth serum spectrogram.png)
+![waveform didn't load!](./Week_8/truth serum waveform.png)
+![spectrogram didn't load!](./Week_8/truth serum spectrogram.png)
+
+One advantage of a time-frequency analysis over just a waveform-based analysis is fairly inherent to the name--that is, it enables us to visualize information about each of the frequencies that comprise a signal.  With just the waveform, it is easy to track changes in overall volume by observing the changes in amplitude, but with the spectrogram, it is possible to observe these changes in volume for all the different frequencies, by looking at the intensity of the colors.  
+
+For example, in the excerpt from Beethoven's Ninth Symphony, the waveform clearly reflects three loud bursts of energy at the beginning of the movement.  However, when one looks at the spectrogram, it is apparent that there are actually four loud bursts (two from the orchestra, then one from the timpani, then another from the orchestra), more or less playing the notes D, A, F and D in order.  The fact that the spectrogram illustrates amplitude with specific respect to the different frequencies allows us to distinguish between the third and fourth bursts, which the waveform does not.
+
+## Week 9: Analysing and Extracting Meaning from Audio
+
+### Task 1
+
+Below are screenshots of the Sonic Visualizer sessions for each of the three songs, featuring the waveforms, spectrograms, mel frequency cepstral coefficients, and chromagrams.
+
+Beethoven:
+
+![screenshot didn't load](./Week_9/beethoven/session.PNG)
+
+Marwood Williams:
+
+![screenshot didn't load](./Week_9/williams/session.PNG)
+
+Truth Serum:
+
+![screenshot didn't load](./Week_9/serum/session.PNG)
+
+### Task 2
+
+Below are histograms representing the spectrograms, mel frequency cepstral coefficients, and chromagrams of the three songs.
+
+| | Spectrogram | MFCC | Chromagram |
+| - | - | - | - |
+| Beethoven | ![](./Week_9/beethoven/spectrogram.png) | ![](./Week_9/beethoven/mfcc.png)| ![](./Week_9/beethoven/chromagram.png) |
+| Williams | ![](./Week_9/williams/spectrogram.png) | ![](./Week_9/williams/mfcc.png)| ![](./Week_9/williams/chromagram.png) |
+| Truth Serum | ![](./Week_9/serum/spectrogram.png) | ![](./Week_9/serum/mfcc.png)| ![](./Week_9/serum/chromagram.png) |
+
+*Insert interpretation of comparison of either chromagrams or MFCCs here.*
+
+## Week 10: Audio Similarity and Transcription
+
+### Task 1
+
+Below is a similarity matrix comparing 10 songs, 7 of which were provided, and 3 of which are the three songs I selected above.
+
+![matrix didn't load!](./Week_10/similarity matrix.jpg)
+
+The final three tracks are, in order, Beethoven, Williams, and Truth Serum.  The Beethoven and Williams are surprisingly similar to each other, in terms of relative occurrence of different pitches, appearing to strike a balance between the first four songs (classical) and the next three (rock).  But, it is blatantly obvious that the Truth Serum song is wildly different from all the others, which is likely due to the fact that, as a rap song, its relative usage of any pitches at all should be different from any sort of sung or melodic music.  It also has lots of laser-like sounds in the background that don't seem to pay any respect to the notion of pitch.
+
+### Task 2
+
+Below is an image of my transcription of Light of the Seven, and below that is an image of Sonic Visualizer's transcription of the audio generated by MuseScore for my transcription.  
+
+*insert the images here*
+
+My transcription features a piano and two cellos.  However, when I tried feeding the audio into Sonic Visualizer to transcribe it, when I viewed the result, it looked absolutely horrendous—weird rhythms, and not the right key signature.  I thought it might be due to some confusion about what notes the cellos were playing, since they were mediocre-quality synthesized cellos from MuseScore that were sustaining notes for the whole piece, and also using a lot of computerized vibrato.  So, I took the cellos out and retried the transcription, which now looks much better (although still very far away from 100% accurate).  It extracted the right tempo and the right overall rhythms, but it still identified the overall key as B minor instead of C minor, so a lot of the notes are exactly a half step too low—this could be due to discrepancies between what frequency bands constitute a “pitch” in MuseScore versus Sonic Visaulizer (sort of like how Baroque orchestras use an A that is lower than 440 Hz).
+
+This concludes my lab portfolio.
+
+
+
+
 
 
 
