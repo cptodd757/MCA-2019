@@ -134,7 +134,7 @@ Below are histograms representing the spectrograms, mel frequency cepstral coeff
 
 Below is a similarity matrix comparing 10 songs, 7 of which were provided, and 3 of which are the three songs I selected above.
 
-[matrix didn't load!](./Week_10/similarity matrix.jpg)
+![matrix didn't load!](./Week_10/similarity matrix.jpg)
 
 The final three tracks are, in order, Beethoven, Williams, and Truth Serum.  The Beethoven and Williams are surprisingly similar to each other, in terms of relative occurrence of different pitches, appearing to strike a balance between the first four songs (classical) and the next three (rock).  But, it is blatantly obvious that the Truth Serum song is wildly different from all the others, which is likely due to the fact that, as a rap song, its relative usage of any pitches at all should be different from any sort of sung or melodic music.  It also has lots of laser-like sounds in the background that don't seem to pay any respect to the notion of pitch.
 
