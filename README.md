@@ -167,15 +167,15 @@ This week, I added some information to my MEI file, notably a genre tag to descr
 
 ## Week 8: Music as sound
 
-For the final three weeks, the three songs I have selected to analyze are the third movement of Beethoven's Ninth Symphony, "What's Wrong with Me" by Marwood Williams, and "The 5th Dimensional Psy Ops Unit" by Truth Serum.  I selected the Beethoven piece in an attempt to stay in line with my theme of movie and television music, because it plays a key role in *A Clockwork Orange* by Stanley Kubrick, and it's also one of my favorite pieces as an orchestral musician.  However, since I needed to select pieces from different genres, but any movie music that isn't classical is very unlikely to be in the public domain, I chose a couple of other songs from freemusicarchive.org instead.  The Williams song is a country song that I, as a critic of country music, find to be aptly titled, and the Truth Serum song is a rap song that I chose because of the absurd-sounding name.  
+For the final three weeks, the three songs I have selected to analyze are the second movement of Beethoven's Ninth Symphony, "What's Wrong with Me" by Marwood Williams, and "The 5th Dimensional Psy Ops Unit" by Truth Serum.  I selected the Beethoven piece in an attempt to stay in line with my theme of movie and television music, because it plays a key role in *A Clockwork Orange* by Stanley Kubrick, and it's also one of my favorite pieces as an orchestral musician.  However, since I needed to select pieces from different genres, but any movie music that isn't classical is very unlikely to be in the public domain, I chose a couple of other songs from freemusicarchive.org instead.  The Williams song is a country song that I, as a critic of country music, find to be aptly titled, and the Truth Serum song is a rap song that I chose because of the absurd-sounding name.  
 
 Below is a table of relevant metadata for each of these songs.  
 
-| Artist |	Composer |	Genre |	Source |	File format | 	number of channels	| sample rate |	bit per second |	duration |	size |
-| - | - | - | - | - | - | - | - | - | - |
-| Royal Concertgebouw Orchestra |	Ludwig van Beethoven |	Classical |	IMSLP	| mp3 |	2	| 48000 |	112 kbps |	0:14:48	| 11.9 MB |
-| Truth Serum	| Truth Serum |	Rap	| freemusicarchive |	mp3	| 2 |	44100 |	320 kbps |	0:02:18	| 5.45 MB |
-| Marwood Williams |	Marwood Williams |	Country |	freemusicarchive |	mp3 |	2 |	44100 |	320 kbps	| 0:03:57 |	9.07 MB |
+| Title | Artist |	Composer |	Genre |	Source |	File format | 	number of channels	| sample rate |	bit per second |	duration |	size |
+| - | - | - | - | - | - | - | - | - | - | - |
+|  Symphony No. 9 in D minor, Op. 125: II. Molto vivace | Royal Concertgebouw Orchestra |	Ludwig van Beethoven |	Classical |	IMSLP	| mp3 |	2	| 48000 |	112 kbps |	0:14:48	| 11.9 MB |
+| The 5th Dimensional Psy Ops Unit | Truth Serum	| Truth Serum |	Rap	| freemusicarchive |	mp3	| 2 |	44100 |	320 kbps |	0:02:18	| 5.45 MB |
+| What's Wrong With Me | Marwood Williams |	Marwood Williams |	Country |	freemusicarchive |	mp3 |	2 |	44100 |	320 kbps	| 0:03:57 |	9.07 MB |
 
 And next, the waveforms and spectrograms for each of the songs.
 
