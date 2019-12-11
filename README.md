@@ -10,7 +10,7 @@ This repository is for a class entitled Music Curation and Analytics at the Univ
 
 *Identify a theme for your dataset. This will be the central, cohesive strand that will bring your data together. It can be an artist, composer, songwriter, performer, album, larger work (i.e. opera, musical, etc.), time period, genre, archival grouping, etc. You will want to be sure that you can gather all three types of data based on your selected theme.*
 
-For my dataset this semester, I am planning on compiling music that has been used in films and television that I enjoy, original compositions or not.  I have chosen this unifying theme because, while I certainly appreciate music for music’s sake, it is often more enjoyable either to form internalized associations between certain pieces of music and visual media (for example, Simple Minds and *The Breakfast Club*), or to be pleasantly surprised by favorite musical works appearing in new movies (for example, a performance of Nessun Dorma in a recent installment of *Mission Impossible*).  I also don’t want to limit myself to a particular genre or time period of music--I don’t know exactly what sorts of analyses we will be doing in later labs, but I want to have the option of working with all types of music, which is freely allowed by a theme such as this.  I may narrow down this theme later on, depending on my interests or any new ideas that come to mind.
+For my dataset this semester, I am planning on compiling music that has been used in films and television that I enjoy, original compositions or not.  I have chosen this unifying theme because, while I certainly appreciate music for music’s sake, it is often more enjoyable either to form internalized associations between certain pieces of music and visual media (for example, Simple Minds and *The Breakfast Club*), or to be pleasantly surprised by favorite musical works appearing in new movies (for example, a performance of Nessun Dorma in a recent installment of *Mission Impossible*).  I also don’t want to limit myself to a particular genre or time period of music--I don’t know exactly what sorts of analyses we will be doing in later labs, but I want to have the option of working with all types of music, which is freely allowed by a theme such as this.  
 
 
 ### Task 3
@@ -19,17 +19,17 @@ For my dataset this semester, I am planning on compiling music that has been use
 
 There are definitely pre-made playlists and albums  on Spotify containing metadata and acoustic data for movie hits in general and specific soundtracks/scores.  One example might be Hans Zimmer’s original score for *The Dark Knight*, available as an album in chronological order on Spotify, with basic information such as artist, duration, release date, etc.  Another example might be a user-made playlist containing the soundtrack used by, but not entirely composed for,  the Netflix original series called Bojack Horseman.  Original film scores may be hard to come by in notated form due to copyright laws, but that’s another reason I’ve left my theme broad enough to include older pieces used in popular films (like a number of classical blockbusters in *Fantasia 2000*).  These I would obtain from IMSLP, where the data is presented as sheet music in a database searchable by composer, style, era, and other filters, and upon selection of a piece, further organized by instrument and edition.  
 
-Most of this data is not already analyzed; however, I have some experience with Spotify’s excellent Web API that exposes extensive data about tracks within the library of a given user (in this case myself), which I would love to leverage for the purposes of this assignment.  
+Most of this data is not already analyzed; however, I have some experience with Spotify’s excellent Web API that exposes extensive data about tracks within the library of a given user (in this case myself), which I would love to leverage for the purposes of this class.  
 
 ## Week 2: Notation Basics
 
-I have chosen to transcribe and arrange a 14-bar segment from "Light of the Seven" by Ramin Djawadi, featured in the Season 6 finale of *Game of Thrones*.  [Click here for the file itself](./Light_of_the_Seven.mscz), or just view this screenshot:
+I have chosen to transcribe and arrange a 14-bar segment from "Light of the Seven" by Ramin Djawadi, featured in the Season 6 finale of *Game of Thrones*.  I chose this piece because *Game of Thrones* is my favorite TV show, this episode is my favorite, and this piece of music is my favorite from the whole soundtrack, not the least because of how it dominates the mood of the scene it's featured in.  [Click here to download the file itself](./Light_of_the_Seven.mscz), or just view this screenshot:
 
 ![image didn't load](./Week_2/original score GoT.PNG)
 
 ## Week 3: Encoding Basics for Notation
 
-[Click here to see my transcription presented by Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html)
+[Click here to see my transcription presented by Verovio.](https://cptodd757.github.io/MCA-2019/verovio.html) (use the Back button to navigate back to this lab portfolio.)
 
 ## Week 4: Computational analytics of notated music
 
@@ -57,7 +57,7 @@ This histogram plainly provides an illustration of that high frequency of top pi
 
 ## Week 5: Standards in curation
 
-The schema I created was largely in line with what was available at https://music-encoding.org/guidelines/v4/content/metadata.html, with omissions made where necessary, e.g. publishing info for a transcription I have not published, information regarding authors of written works or pieces with lyrics, etc.  The file that uses this schema can be viewed [here](./Week_5/Light of the Seven, New Metadata.mei), or, more conveniently, in my later writeup for Week 7.
+The schema I created was largely in line with what was available at https://music-encoding.org/guidelines/v4/content/metadata.html, with omissions made where necessary, e.g. publishing info for a transcription I have not published, information regarding authors of written works or pieces with lyrics, etc.  The file that uses this schema can be downloaded [here](./Week_5/Light of the Seven, New Metadata.mei) or, more conveniently, viewed in the snippet below or my later writeup for Week 7.
 
 Below is a snippet from the file:
 
@@ -163,7 +163,7 @@ Reading week!
 
 ## Week 7: Challenges to music curation
 
-This week, I added some information to my MEI file, notably a genre tag to describe this piece as soundtrack, as well as a responsibility statement within the title statement that credits *Game of Thrones* with having commissioned the composition of this piece.  Click [here](./myMeta.html) to view the header, along with a Verovio rendering of the sheet music.
+This week, I added some information to my MEI file, notably a genre tag to describe this piece as soundtrack, as well as a responsibility statement within the title statement that credits *Game of Thrones* with having commissioned the composition of this piece.  Click [here](./myMeta.html) to view the header, along with a Verovio rendering of the sheet music.  (Again, use the Back button to navigate back to this main page.)
 
 ## Week 8: Music as sound
 
@@ -176,6 +176,8 @@ Below is a table of relevant metadata for each of these songs.
 |  Symphony No. 9 in D minor, Op. 125: II. Molto vivace | Royal Concertgebouw Orchestra |	Ludwig van Beethoven |	Classical |	IMSLP	| mp3 |	2	| 48000 |	112 kbps |	0:14:48	| 11.9 MB |
 | The 5th Dimensional Psy Ops Unit | Truth Serum	| Truth Serum |	Rap	| freemusicarchive |	mp3	| 2 |	44100 |	320 kbps |	0:02:18	| 5.45 MB |
 | What's Wrong With Me | Marwood Williams |	Marwood Williams |	Country |	freemusicarchive |	mp3 |	2 |	44100 |	320 kbps	| 0:03:57 |	9.07 MB |
+
+An interesting aspects to note is the increased sampling rate (48000) of the Beethoven file downloaded from IMSLP, when compared to that of the other two songs (44100).  It is also interesting that the Beethoven recording, despite being over three times as long as the other two songs, takes up much less than three times the amount of memory.  This is probably explained by the much smaller bit rate per second.
 
 And next, the waveforms and spectrograms for each of the songs.
 
@@ -194,7 +196,7 @@ Truth Serum:
 ![waveform didn't load!](./Week_8/truth serum waveform.png)
 ![spectrogram didn't load!](./Week_8/truth serum spectrogram.png)
 
-One advantage of a time-frequency analysis over just a waveform-based analysis is fairly inherent to the name--that is, it enables us to visualize information about each of the frequencies that comprise a signal.  With just the waveform, it is easy to track changes in overall volume by observing the changes in amplitude, but with the spectrogram, it is possible to observe these changes in volume for all the different frequencies, by looking at the intensity of the colors.  
+One advantage of a time-frequency analysis over just a waveform-based analysis is fairly inherent to the name--that is, it enables us to visualize information about each of the frequencies that comprise a signal.  With just the waveform, it is admittedly easy to track changes in overall volume by observing the changes in amplitude, but with the spectrogram, it is possible to observe these changes in volume for ALL the different frequencies, by looking at the intensity of the colors.  
 
 For example, in the excerpt from Beethoven's Ninth Symphony, the waveform clearly reflects three loud bursts of energy at the beginning of the movement.  However, when one looks at the spectrogram, it is apparent that there are actually four loud bursts (two from the orchestra, then one from the timpani, then another from the orchestra), more or less playing the notes D, A, F and D in order.  The fact that the spectrogram illustrates amplitude with specific respect to the different frequencies allows us to distinguish between the third and fourth bursts, which the waveform does not.
 
@@ -226,7 +228,7 @@ Below are histograms representing the spectrograms, mel frequency cepstral coeff
 | Williams | ![](./Week_9/williams/spectrogram.png) | ![](./Week_9/williams/mfcc.png)| ![](./Week_9/williams/chromagram.png) |
 | Truth Serum | ![](./Week_9/serum/spectrogram.png) | ![](./Week_9/serum/mfcc.png)| ![](./Week_9/serum/chromagram.png) |
 
-The chromagrams of these three pieces have some expected similarities and differences.  To begin, it can be observed that, within each song, the distributions of each pitch with respect to energy don’t change much—this was expected, because none of the songs seemed to have any strange imbalances of certain pitches always being louder or softer than others.  However, when comparing across the songs, differences in the distributions become more apparent.  The energy levels for each pitch in Beethoven are skewed right significantly, indicating that notes are more often played quietly than loudly, which is certainly expected from a piece of classical music, a genre that places a lot of emphasis on dynamics and dynamic contrast.  This piece in particular has several long stretches of relative quietude, as can be observed in the waveforms from week 8.  In contrast, the distributions for the Williams and Truth Serum songs are much closer to the normal distribution, especially the Truth Serum song.  This is expected because rap and country are both genres that would be considered popular music, which has much less dynamic contrast.  
+The chromagrams of these three pieces have some expected similarities and differences.  To begin, it can be observed that, within each song, the distributions of each pitch with respect to energy don’t change much—this was expected, because none of the songs seemed to have any strange imbalances of certain pitches always being louder or softer than others.  However, when comparing across the songs, differences in the distributions become more apparent.  The energy levels for each pitch in Beethoven are skewed right significantly, indicating that notes are more often played quietly than loudly, which is certainly expected from a piece of classical music, a genre that places a lot of emphasis on dynamics and dynamic contrast.  This piece in particular has several long stretches of relative quietude, as can be observed in the waveforms from week 8.  In contrast, the distributions for the Williams and Truth Serum songs are much closer to the normal distribution, especially the Truth Serum song.  This is expected because rap and country are both genres that would be considered popular music, which, broadly speaking, has much less dynamic contrast.  
 
 ## Week 10: Audio Similarity and Transcription
 
